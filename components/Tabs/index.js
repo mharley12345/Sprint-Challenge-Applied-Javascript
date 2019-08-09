@@ -13,9 +13,8 @@ axios.get('https://lambda-times-backend.herokuapp.com/topics')
      console.log("Data Received:",response)
           let data = response.data.topics
         data.forEach(item=>{
-          tabCreator(item)})
-        
-  .then(error=> {
+          tabCreator(item)
+ }).then(error=> {
             console.log('Api down for', error)
           })     
         
