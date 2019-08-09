@@ -22,7 +22,7 @@ function Header() {
     header.appendChild(date)
 
     const title = document.createElement('h1')
-    title.textContent='Lambda Time'
+    title.textContent='Lambda Times'
     header.appendChild(title)
 
     const temp = document.createElement('span')
